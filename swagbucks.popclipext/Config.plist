@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>swagbucks.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,1900}$</string>
+			<key>Title</key>
+			<string>Swagbucks Search</string>
+			<key>URL</key>
+			<string>http://www.swagbucks.com/?q={popclip text}</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>https://github.com/mortonfox</string>
+			<key>Name</key>
+			<string>Morton Fox</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Search Swagbucks with the selected text.</string>
+	<key>Extension Identifier</key>
+	<string>com.mortonfox.popclip.extension.swagbucks</string>
+	<key>Extension Name</key>
+	<string>Swagbucks Search</string>
+</dict>
+</plist>
